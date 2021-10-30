@@ -587,8 +587,11 @@ body {
   margin-right: 8px;
 }
 
-.examples__item {
-  margin: 0 auto;
+@media screen and (min-width: 480px) {
+  .examples__item {
+    width: 450px;
+    margin: 0 auto;
+  }
 }
 
 .examples__item:not(:last-child) {
