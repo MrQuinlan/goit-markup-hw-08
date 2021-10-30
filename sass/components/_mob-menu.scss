@@ -32,6 +32,17 @@
     }
 }
 
+.mob-menu___btn-title--visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
 .mob-menu {
     position: fixed;
     top: 0;
@@ -166,7 +177,7 @@
     }
 }
 
-.mob-social-links__separator {
+.mob-social-links__item--separator {
     display: block;
 
     width: 1px;

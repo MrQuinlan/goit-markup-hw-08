@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="дизайнерские решения и создание приложений">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title lang="en">WebStudio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,17 +25,19 @@
 <!-- ============================================== -->
                 <!-- Моб меню -->
             
-                <button class="mob-menu__open-btn mob-menu-open" aria-expanded="false" aria-controls="mobile-menu">
+                <button type="button" class="mob-menu__open-btn mob-menu-open" aria-expanded="false" aria-controls="mobile-menu">
                     <svg class="mob-menu__burger-icon" width="40" height="40">
                         <use href="./images/icons.svg#burger"></use>
                     </svg>
+                    <span class="mob-menu___btn-title--visually-hidden" >Открыть мобильное меню</span>
                 </button>
 
                 <div class="mob-menu" id="mobile-menu">
-                    <button class="mob-menu__close-btn mob-menu-close">
+                    <button type="button" class="mob-menu__close-btn mob-menu-close">
                         <svg class="mob-menu__cross-icon" width="40" height="40">
                             <use href="./images/icons.svg#mob-menu-cross"></use>
                         </svg>
+                        <span class="mob-menu___btn-title--visually-hidden" >Закрыть мобильное меню</span>
                     </button>
         
                     <ul class="mob-menu__nav">
@@ -60,15 +63,15 @@
                         <li class="mob-social-links__item">
                             <a href="https://www.instagram.com/" class="mob-social-links__link" aria-label="инстаграм">Instagram</a>
                         </li>
-                        <span class="mob-social-links__separator"></span>
+                        <li class="mob-social-links__item--separator"></li>
                         <li class="mob-social-links__item">
                             <a href="https://twitter.com/" class="mob-social-links__link" aria-label="твитер">Twitter</a>
                         </li>
-                        <span class="mob-social-links__separator"></span>
+                        <li class="mob-social-links__item--separator"></li>
                         <li class="mob-social-links__item">
                             <a href="https://www.facebook.com/" class="mob-social-links__link" aria-label="фейсбук">Facebook</a>
                         </li>
-                        <span class="mob-social-links__separator"></span>
+                        <li class="mob-social-links__item--separator"></li>
                         <li class="mob-social-links__item">
                             <a href="https://www.linkedin.com/" class="mob-social-links__link" aria-label="линкедин">LinkedIn</a>
                         </li>
@@ -206,7 +209,9 @@
                                 <img srcset="./images/mobile/mob-igor-demianenko-450.jpg 480w, ./images/mobile/mob-igor-demianenko-900.jpg 900w, ./images/mobile/mob-igor-demianenko-1350.jpg 1350w" 
                                     class="teammate-photo" 
                                     src="./images/mobile/mob-igor-demianenko-450.jpg" 
-                                    alt="Игорь Демьяненко">
+                                    sizes="(min-width: 480px) 450px"
+                                    alt="Игорь Демьяненко"
+                                    width="450" height="460">
                                 <div class="developer-card__meta" >
                                     <h3 class="developer-card__title">Игорь Демьяненко</h3>
                                     <p lang="en" class="developer-card__text">Product Designer</p>
@@ -253,7 +258,9 @@
                                 <img srcset="./images/mobile/mob-olga-repina-450.jpg 480w, ./images/mobile/mob-olga-repina-900.jpg 900w, ./images/mobile/mob-olga-repina-1350.jpg 1350w" 
                                     class="teammate-photo" 
                                     src="./images/mobile/mob-olga-repina-450.jpg" 
-                                    alt="Ольга Репина">
+                                    sizes="(min-width: 480px) 450px"
+                                    alt="Ольга Репина"
+                                    width="450" height="460">
                                 <div class="developer-card__meta">
                                     <h3 class="developer-card__title">Ольга Репина</h3>
                                     <p lang="en" class="developer-card__text">Frontend Developer</p>
@@ -300,7 +307,9 @@
                                 <img srcset="./images/mobile/mob-nikolai-tarasov-450.jpg 480w, ./images/mobile/mob-nikolai-tarasov-900.jpg 900w, ./images/mobile/mob-nikolai-tarasov-1350.jpg 1350w" 
                                     class="teammate-photo" 
                                     src="./images/mobile/mob-nikolai-tarasov-450.jpg" 
-                                    alt="Николай Тарасов">
+                                    sizes="(min-width: 480px) 450px"
+                                    alt="Николай Тарасов"
+                                    width="450" height="460">
                                 <div class="developer-card__meta">
                                     <h3 class="developer-card__title">Николай Тарасов</h3>
                                     <p lang="en" class="developer-card__text">Marketing</p>
@@ -339,15 +348,17 @@
                         </li>
                         <li class="developers-list__item">
                             <article class="developer-card">
-                                <picture>
-                                    <!-- <source srcset="./images/mobile/mob-mikhail-ermakov-450.jpg 1x, ./images/mobile/mob-mikhail-ermakov-900.jpg 2x, ./images/mobile/mob-mikhail-ermakov-1350.jpg 3x" 
+                                <!-- <picture>
+                                    <source srcset="./images/mobile/mob-mikhail-ermakov-450.jpg 1x, ./images/mobile/mob-mikhail-ermakov-900.jpg 2x, ./images/mobile/mob-mikhail-ermakov-1350.jpg 3x" 
                                     media="(max-width: 767px)">
                                     <img class="teammate-photo" src="./images/mobile/mob-mikhail-ermakov-450.jpg" alt="Михаил Ермаков">
                                 </picture> -->
                                 <img srcset="./images/mobile/mob-mikhail-ermakov-450.jpg 480w, ./images/mobile/mob-mikhail-ermakov-900.jpg 900w, ./images/mobile/mob-mikhail-ermakov-1350.jpg 1350w" 
                                     class="teammate-photo" 
                                     src="./images/mobile/mob-mikhail-ermakov-450.jpg" 
-                                    alt="Михаил Ермаков">
+                                    sizes="(min-width: 480px) 450px"
+                                    alt="Михаил Ермаков"
+                                    width="450" height="460">
                                 <div class="developer-card__meta">
                                     <h3 class="developer-card__title">Михаил Ермаков</h3>
                                     <p lang="en" class="developer-card__text">UI Designer</p>
