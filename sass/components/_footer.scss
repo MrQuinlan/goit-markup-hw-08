@@ -1,0 +1,21 @@
+.footer {
+  // min-width: 1200px;
+  // max-width: 1600px;
+  padding: 60px 0;
+  margin: 0 auto;
+  background-color: #2f303a;
+}
+
+.footer--flex {
+//   display: flex;
+//   align-items: baseline;
+// }
+
+// .footer__left-column {
+//   max-width: 231px;
+//   margin-right: 85px;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
