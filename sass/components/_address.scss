@@ -5,8 +5,9 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
-  margin-bottom: 60px;
-
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
 }
 
 .address__link {

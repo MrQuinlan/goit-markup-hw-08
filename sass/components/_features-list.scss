@@ -1,8 +1,21 @@
-// .features-list {
-//     width: 100%;
-//     display: flex;
-//     flex-basis: calc((100% - 30px) / 4);
-// }
+.features-list {
+    // width: 100%;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: calc((100% - 30px) / 4);
+
+        margin: -15px;
+    }
+}
+
+.features-list__item {
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 15px * 4) / 2);
+
+        margin: 15px;
+    }
+}
 
 .features-list__item:not(:last-child){
     margin-bottom: 30px;

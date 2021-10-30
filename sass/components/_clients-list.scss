@@ -8,9 +8,12 @@
 
 .clients-list__item {
   width: calc((100% - 15px * 4) / 2);
-  height: calc((100% - 15px * 6) / 3);
-
+  
   margin: 15px;
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 15px * 6) / 3);
+  }
 }
 
 // .clients-list__item:not(:last-child) {

@@ -4,18 +4,39 @@
   padding: 60px 0;
   margin: 0 auto;
   background-color: #2f303a;
+
+  // @media screen and (min-width: 768px) {
+  //   padding: 60px 89px 60px 76px;
+  // }
 }
 
 .footer--flex {
-//   display: flex;
-//   align-items: baseline;
-// }
 
-// .footer__left-column {
-//   max-width: 231px;
-//   margin-right: 85px;
 
   @media screen and (max-width: 767px) {
     text-align: center;
   }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-align: center;
+  }
 }
+
+.footer__left-column {
+  @media screen and (min-width: 768px) {
+    width: 232px;
+    margin: 0 165px 60px 61px;
+  }
+//   max-width: 231px;
+//   margin-right: 85px;
+}
+
+// .join-us {
+//   @media screen and (min-width: 768px) {
+//     width: 232px;
+//     margin-right: 165px;
+//   }
+// }

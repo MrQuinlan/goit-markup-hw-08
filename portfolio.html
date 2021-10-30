@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="дизайнерские решения и создание приложений">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Портфолио</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,17 +25,19 @@
 <!-- ============================================== -->
                 <!-- Моб меню -->
             
-                <button class="mob-menu__open-btn mob-menu-open" aria-expanded="false" aria-controls="mobile-menu">
+                <button type="button" class="mob-menu__open-btn mob-menu-open" aria-expanded="false" aria-controls="mobile-menu">
                     <svg class="mob-menu__burger-icon" width="40" height="40">
                         <use href="./images/icons.svg#burger"></use>
                     </svg>
+                    <span class="mob-menu___btn-title--visually-hidden" >Открыть мобильное меню</span>
                 </button>
 
                 <div class="mob-menu" id="mobile-menu">
-                    <button class="mob-menu__close-btn mob-menu-close">
+                    <button type="button" class="mob-menu__close-btn mob-menu-close">
                         <svg class="mob-menu__cross-icon" width="40" height="40">
                             <use href="./images/icons.svg#mob-menu-cross"></use>
                         </svg>
+                        <span class="mob-menu___btn-title--visually-hidden" >Закрыть мобильное меню</span>
                     </button>
         
                     <ul class="mob-menu__nav">
@@ -60,15 +63,15 @@
                         <li class="mob-social-links__item">
                             <a href="https://www.instagram.com/" class="mob-social-links__link" aria-label="инстаграм">Instagram</a>
                         </li>
-                        <span class="mob-social-links__separator"></span>
+                        <li class="mob-social-links__item--separator"></li>
                         <li class="mob-social-links__item">
                             <a href="https://twitter.com/" class="mob-social-links__link" aria-label="твитер">Twitter</a>
                         </li>
-                        <span class="mob-social-links__separator"></span>
+                        <li class="mob-social-links__item--separator"></li>
                         <li class="mob-social-links__item">
                             <a href="https://www.facebook.com/" class="mob-social-links__link" aria-label="фейсбук">Facebook</a>
                         </li>
-                        <span class="mob-social-links__separator"></span>
+                        <li class="mob-social-links__item--separator"></li>
                         <li class="mob-social-links__item">
                             <a href="https://www.linkedin.com/" class="mob-social-links__link" aria-label="линкедин">LinkedIn</a>
                         </li>
@@ -146,8 +149,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project1-450.jpg 480w, ./images/mobile/mob-project1-900.jpg 900w, ./images/mobile/mob-project1-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project1-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project1-450.jpg 480w, ./images/mobile/mob-project1-900.jpg 900w, ./images/mobile/mob-project1-1350.jpg 1350w,
+                                                ./images/tablet/tab-project1-354.jpg 354w, ./images/tablet/tab-project1-708.jpg 708w, ./images/tablet/tab-project1-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project1-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="На ноутбуке открыт веб-сайт Технокряк" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
@@ -161,8 +166,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project2-450.jpg 480w, ./images/mobile/mob-project2-900.jpg 900w, ./images/mobile/mob-project2-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project2-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project2-450.jpg 480w, ./images/mobile/mob-project2-900.jpg 900w, ./images/mobile/mob-project2-1350.jpg 1350w,
+                                                ./images/tablet/tab-project2-354.jpg 354w, ./images/tablet/tab-project2-708.jpg 708w, ./images/tablet/tab-project2-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project2-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Постер с двумя баскетболистами" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -176,8 +183,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project3-450.jpg 480w, ./images/mobile/mob-project3-900.jpg 900w, ./images/mobile/mob-project3-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project3-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project3-450.jpg 480w, ./images/mobile/mob-project3-900.jpg 900w, ./images/mobile/mob-project3-1350.jpg 1350w,
+                                                ./images/tablet/tab-project3-354.jpg 354w, ./images/tablet/tab-project3-708.jpg 708w, ./images/tablet/tab-project3-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project3-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Логотип ресторана" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -191,8 +200,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project4-450.jpg 480w, ./images/mobile/mob-project4-900.jpg 900w, ./images/mobile/mob-project4-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project4-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project4-450.jpg 480w, ./images/mobile/mob-project4-900.jpg 900w, ./images/mobile/mob-project4-1350.jpg 1350w,
+                                                ./images/tablet/tab-project4-354.jpg 354w, ./images/tablet/tab-project4-708.jpg 708w, ./images/tablet/tab-project4-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project4-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Наушники" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -206,8 +217,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project5-450.jpg 480w, ./images/mobile/mob-project5-900.jpg 900w, ./images/mobile/mob-project5-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project5-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project5-450.jpg 480w, ./images/mobile/mob-project5-900.jpg 900w, ./images/mobile/mob-project5-1350.jpg 1350w,
+                                                ./images/tablet/tab-project5-354.jpg 354w, ./images/tablet/tab-project5-708.jpg 708w, ./images/tablet/tab-project5-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project5-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Белая и коричневая коробки" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -221,8 +234,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project6-450.jpg 480w, ./images/mobile/mob-project6-900.jpg 900w, ./images/mobile/mob-project6-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project6-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project6-450.jpg 480w, ./images/mobile/mob-project6-900.jpg 900w, ./images/mobile/mob-project6-1350.jpg 1350w,
+                                                ./images/tablet/tab-project6-354.jpg 354w, ./images/tablet/tab-project6-708.jpg 708w, ./images/tablet/tab-project6-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project6-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Монитор с открытым сайтом" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -236,8 +251,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project7-450.jpg 480w, ./images/mobile/mob-project7-900.jpg 900w, ./images/mobile/mob-project7-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project7-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project7-450.jpg 480w, ./images/mobile/mob-project7-900.jpg 900w, ./images/mobile/mob-project7-1350.jpg 1350w,
+                                                ./images/tablet/tab-project7-354.jpg 354w, ./images/tablet/tab-project7-708.jpg 708w, ./images/tablet/tab-project7-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project7-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Развернутая книга" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -251,8 +268,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project8-450.jpg 480w, ./images/mobile/mob-project8-900.jpg 900w, ./images/mobile/mob-project8-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project8-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project8-450.jpg 480w, ./images/mobile/mob-project8-900.jpg 900w, ./images/mobile/mob-project8-1350.jpg 1350w,
+                                                ./images/tablet/tab-project8-354.jpg 354w, ./images/tablet/tab-project8-708.jpg 708w, ./images/tablet/tab-project8-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project8-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Ярлык" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>
@@ -266,8 +285,10 @@
                         <li class="examples__item">
                             <a href="#" class="examples__link">
                                 <div class="examples__overlay">
-                                    <img srcset="./images/mobile/mob-project9-450.jpg 480w, ./images/mobile/mob-project9-900.jpg 900w, ./images/mobile/mob-project9-1350.jpg 1350w" 
-                                    src="./images/mobile/mob-project9-450.jpg" 
+                                    <img srcset="./images/mobile/mob-project9-450.jpg 480w, ./images/mobile/mob-project9-900.jpg 900w, ./images/mobile/mob-project9-1350.jpg 1350w,
+                                                ./images/tablet/tab-project9-354.jpg 354w, ./images/tablet/tab-project9-708.jpg 708w, ./images/tablet/tab-project9-1062.jpg 1062w"  
+                                    src="./images/mobile/mob-project9-354.jpg" 
+                                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
                                     alt="Работа за ноутбуком" 
                                     width="450" height="294">
                                     <p class="examples__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum esse fuga nostrum inventore ullam tempore qui sit. Deserunt, dolore praesentium maiores unde nisi delectus non cumque exercitationem!</p>

@@ -1,6 +1,9 @@
-// .suscribe {
-//     margin-left: auto;
-// }
+.suscribe {
+    @media screen and (min-width: 768px) {
+        margin: 0 auto;
+    }
+    // margin-left: auto;
+}
 
 .subscribe__title {
     font-weight: 700;
