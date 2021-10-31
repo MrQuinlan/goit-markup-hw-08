@@ -65,6 +65,21 @@
   margin-right: 10px;
 }
 
+.contacts__icon-envelope {
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
+  }
+}
+
+
+.contacts__icon-tel {
+  @media screen and (min-width: 1200px) {
+    width: 10px;
+    height: 16px;
+  }
+}
+
 .icon {
   align-items: center;
 }

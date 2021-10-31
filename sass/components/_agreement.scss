@@ -7,13 +7,11 @@
     position: relative;
     display: block;
 
-    // width: 425px;
     padding-left: 24px;
 
     font-size: 12px;
     line-height: calc(14 / 12);
-    // font-size: 14px;
-    // line-height: calc(24 / 14);
+
     letter-spacing: 0.03em;
     text-align: center;
 
@@ -26,6 +24,11 @@
         width: 270px;
 
         padding-left: 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: calc(24 / 14);
     }
 }
 

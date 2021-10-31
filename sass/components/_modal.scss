@@ -6,9 +6,7 @@
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    // width: 528px;
     width: 450px;
-    // height: 581px;
     height: 609px;
     padding: 40px;
     
@@ -20,6 +18,11 @@
 
     @media screen and (max-width: 479px) {
         width: 95%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 581px;
     }
 }
 
